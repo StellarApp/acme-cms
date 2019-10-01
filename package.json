@@ -1,0 +1,33 @@
+{
+  "name": "acme-cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --watch --mode:dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StellarApp/acme-cms.git"
+  },
+  "author": "Stella Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StellarApp/acme-cms/issues"
+  },
+  "homepage": "https://github.com/StellarApp/acme-cms#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3",
+    "sequelize": "^5.19.1"
+  }
+}
